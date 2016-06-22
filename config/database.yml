@@ -8,11 +8,11 @@ default: &default
 
 development:
   <<: *default
-  database: botiqueRoR_development
+  database: botique_development
 
 test:
   <<: *default
-  database: botiqueRoR_test
+  database: botique_test
 
 production:
   <<: *default
