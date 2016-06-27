@@ -39,6 +39,7 @@ group :development, :test do
   gem "factory_girl-preload"
   gem "database_cleaner"
   gem "faker"
+  #gem "shoulda-matcher"
 end
 
 group :test do
