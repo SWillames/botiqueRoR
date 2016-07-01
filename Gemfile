@@ -31,7 +31,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'devise'
+gem 'cancan'
+gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'activeadmin-sortable'  
 group :development, :test do
   gem "rspec-rails"
   #gem "pry-meta"
