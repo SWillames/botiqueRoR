@@ -34,7 +34,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'cancan'
 gem 'activeadmin', github: 'gregbell/active_admin'
-gem 'activeadmin-sortable'  
+gem 'activeadmin-sortable'
+gem "rails-i18n"
 group :development, :test do
   gem "rspec-rails"
   #gem "pry-meta"
