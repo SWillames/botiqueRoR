@@ -1,7 +1,16 @@
 pt-BR:
   devise:
     sessions:
-              signed_in: "Você está logado."
-              signed_out: "Voce saiu com sucesso."
-              already_signed_out: "Voce saiu com sucesso    ."
-    
+          signed_in: "Você está logado."
+          signed_out: "Voce saiu com sucesso."
+          already_signed_out: "Voce saiu com sucesso."
+    failure:
+      already_authenticated: "Você já está logado."
+      inactive: "Sua conta ainda não foi ativida."
+      invalid: "%{authentication_keys} ou senha invalidos."
+      locked: "Sua conta está bloqueada."
+      last_attempt: "Você tem mais uma tentativa antes de sua conta ser bloqueada."
+      not_found_in_database: "%{authentication_keys} ou senha invalidos."
+      timeout: "Sua sessão expirou, entre novamente com seu email e senha."
+      unauthenticated: "Você precisa estar logado para continuar."
+      unconfirmed: "Você tem que confirmar seu endereço de email para continuar."
