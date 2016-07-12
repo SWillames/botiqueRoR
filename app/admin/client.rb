@@ -8,6 +8,7 @@ ActiveAdmin.register Client do
     column :cpf
     column :location
     column :salary
+    actions
   end
 
   form do |f|
