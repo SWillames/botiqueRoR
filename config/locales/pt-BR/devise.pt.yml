@@ -1,0 +1,7 @@
+pt-BR:
+  devise:
+    sessions:
+              signed_in: "Você está logado."
+              signed_out: "Voce saiu com sucesso."
+              already_signed_out: "Voce saiu com sucesso    ."
+    
