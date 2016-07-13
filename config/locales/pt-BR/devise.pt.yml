@@ -14,3 +14,6 @@ pt-BR:
       timeout: "Sua sessão expirou, entre novamente com seu email e senha."
       unauthenticated: "Você precisa estar logado para continuar."
       unconfirmed: "Você tem que confirmar seu endereço de email para continuar."
+    dashboard:
+       panel:
+         recent_clients: "Clientes recém adicionados."

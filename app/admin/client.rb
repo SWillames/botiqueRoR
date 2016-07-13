@@ -1,5 +1,5 @@
 ActiveAdmin.register Client do
-  menu priority: 1
+  menu priority: 1, label: proc{ I18n.t("menu.clients") }
   permit_params :name, :cpf, :location, :salary
 
   index do

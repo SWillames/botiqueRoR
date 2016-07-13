@@ -1,6 +1,6 @@
 ActiveAdmin.register Product do
 
-  menu priority: 1
+  menu priority: 1, label: proc{ I18n.t("menu.products") }
   permit_params :price, :description, :mark
 
   index do

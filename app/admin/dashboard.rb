@@ -14,14 +14,14 @@ ActiveAdmin.register_page "Dashboard" do
     #
     columns do
      column do
-         panel "Recent client" do
+       panel  I18n.t("devise.dashboard.panel.recent_clients") do
            ul do
              Client.take(5).map do |client|
                li link_to(client.name, admin_client_path(client))
              end
            end
          end
-       end
+      end
     end
     #   column do
     #     panel "Info" do
